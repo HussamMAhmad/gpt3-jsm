@@ -22,7 +22,7 @@ function Footer() {
           <a href="/">
             <p>Oerrors</p>
           </a>
-          <a href="#">
+          <a href="/">
             <p>Oerrors</p>
           </a>
           <a href="/">
