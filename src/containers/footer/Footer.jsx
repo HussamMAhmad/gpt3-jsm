@@ -16,40 +16,40 @@ function Footer() {
         </div>
         <div className="gpt3__footer-content-links">
           <h6>Links</h6>
-          <a href="#">
+          <a href="/">
+            <p>Oerrors</p>
+          </a>
+          <a href="/">
             <p>Oerrors</p>
           </a>
           <a href="#">
             <p>Oerrors</p>
           </a>
-          <a href="#">
-            <p>Oerrors</p>
-          </a>
-          <a href="#">
+          <a href="/">
             <p>Oerrors</p>
           </a>
         </div>
         <div className="gpt3__footer-content-links">
           <h6>company</h6>
-          <a href="#">
+          <a href="/">
             <p>Terms & condions</p>
           </a>
-          <a href="#">
+          <a href="/">
             <p>Privacy pelcy</p>
           </a>
-          <a href="#">
+          <a href="/">
             <p>Terms & condions</p>
           </a>
         </div>
         <div className="gpt3__footer-content-links">
           <h6>Get in touch</h6>
-          <a href="#">
+          <a href="/">
             <p>Terms & condions</p>
           </a>
-          <a href="#">
+          <a href="/">
             <p>Privacy pelcy</p>
           </a>
-          <a href="#">
+          <a href="/">
             <p>Terms & condions</p>
           </a>
         </div>
