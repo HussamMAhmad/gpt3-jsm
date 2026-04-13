@@ -1,0 +1,98 @@
+
+.gpt3__wgpt3-content {
+  padding: 50px ;
+  margin: 50px ;
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--color-footer);
+  background: -moz-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+  background: -o-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+  background: -ms-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.gpt3__wgpt3-header,
+.gpt3__wgpt3-middle {
+  margin-bottom: 100px;
+}
+.gpt3__wgpt3-middle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.gpt3__wgpt3-middle-title {
+  font-weight: 800;
+  font-size: 34px;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+.gpt3__wgpt3-middle-paragraph {
+  font-size: 18px;
+  color: var(--color-subtext);
+  cursor: pointer;
+}
+.gpt3__wgpt3-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.gpt3__wgpt3-footer .gpt3__feature{
+  min-width: 210px;
+  flex-direction: column;
+}
+@media screen and (max-width: 550px) {
+  .gpt3__wgpt3-content {
+    padding: 20px;
+    margin: 30px ;
+  }
+  .gpt3__wgpt3-header .gpt3__feature h1{
+    font-size: 16px;
+  }
+  .gpt3__wgpt3-header .gpt3__feature p{
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .gpt3__wgpt3-middle-title {
+    font-size: 20px;
+  }
+  .gpt3__wgpt3-middle-paragraph {
+    font-size: 14px;
+  }
+  .gpt3__wgpt3-footer .gpt3__feature h1{
+    font-size: 18px;
+  }
+  .gpt3__wgpt3-footer .gpt3__feature p{
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

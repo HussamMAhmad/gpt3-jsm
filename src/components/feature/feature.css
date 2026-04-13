@@ -1,0 +1,23 @@
+.gpt3__feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 1rem;
+}
+.gpt3__feature h1 {
+  position: relative;
+  color: #fff;
+  font-weight: 800;
+  font-size: 24px;
+  max-width: 180px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.gpt3__feature p {
+  font-size: 16px;
+  color: var(--color-text);
+  line-height: 30px;
+  max-width: 390px;
+}
